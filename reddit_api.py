@@ -59,11 +59,12 @@ def transform_data(post_df: pd.DataFrame()):
 if __name__ == "__main__":
     parser = configparser.ConfigParser()
 
-    client_id = 'pdwZMbYfmFmoX-6ASPFOew'
-    client_secret = 'k2rEQ8U7Qc9GaS2kLaEFfpZBwJ-DDA'
-    user_agent = 'Post creation error Tripathi3041'
-    username='Tripathi3041'
-    password='Vishal@123'
+    # create reddit api developer client api and secret key
+    client_id = '******************'
+    client_secret = '********************'
+    user_agent = 'Post creation error {UserName}'
+    username='username'
+    password='password'
     redirect_url = 'http://localhost:8080'
     subreddit = 'dataengineering'
     time_filter = 'year'
