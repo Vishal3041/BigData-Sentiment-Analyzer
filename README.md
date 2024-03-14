@@ -1,12 +1,11 @@
 # BigData-Sentiment-Analyzer
 
-Objective:
-The goal was to develop an application that performs real-time sentiment analysis on Reddit posts, providing immediate insights into public opinion on various topics.
+***Objective:***
+- The goal was to develop an application that performs real-time sentiment analysis on Reddit posts, providing immediate insights into public opinion on various topics.
 
-Pipeline Implementation:
+***Pipeline Implementation:***
 
-Data Ingestion and Environment Setup:
-
+- ***Data Ingestion and Environment Setup:***
 Configured a local big data environment comprising HDFS, Kafka, Zookeeper, and Hive, supplemented by cloud resources to optimize performance and scalability.
 Installed Python and PySpark, integrating them with Kafka to facilitate data streaming from Reddit.
 API Integration and Data Streaming:
