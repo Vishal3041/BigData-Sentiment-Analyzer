@@ -6,13 +6,15 @@
 ***Pipeline Implementation:***
 
 - ***Data Ingestion and Environment Setup:***
-Configured a local big data environment comprising HDFS, Kafka, Zookeeper, and Hive, supplemented by cloud resources to optimize performance and scalability.
-Installed Python and PySpark, integrating them with Kafka to facilitate data streaming from Reddit.
-API Integration and Data Streaming:
+  - Configured a local big data environment comprising HDFS, Kafka, Zookeeper, and Hive, supplemented by cloud resources to optimize performance and scalability.
+  - Installed Python and PySpark, integrating them with Kafka to facilitate data streaming from Reddit.
 
-Utilized PRAW (Python Reddit API Wrapper) to stream live Reddit data based on specific keywords.
-Implemented a Python script to filter and preprocess this data, ensuring cleanliness by removing URLs and non-essential content.
-Real-time Data Analysis with Apache Spark:
+***API Integration and Data Streaming:***
+
+  - Utilized PRAW (Python Reddit API Wrapper) to stream live Reddit data based on specific keywords.
+  - Implemented a Python script to filter and preprocess this data, ensuring cleanliness by removing URLs and non-essential content.
+
+***Real-time Data Analysis with Apache Spark:***
 
 Applied a pre-trained sentiment analysis model using PySpark to assess the sentiment of each Reddit post in the stream, categorizing them into positive, negative, and neutral sentiments.
 Data Storage and Visualization:
